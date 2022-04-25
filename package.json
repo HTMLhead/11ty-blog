@@ -1,0 +1,30 @@
+{
+  "name": "11ty-blog",
+  "version": "1.0.0",
+  "description": "11ty example",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist src/_js",
+    "start": "npx eleventy --serve",
+    "build:11ty": "eleventy --quiet",
+    "watch:11ty": "eleventy --serve --quiet",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HTMLhead/11ty-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HTMLhead/11ty-blog/issues"
+  },
+  "homepage": "https://github.com/HTMLhead/11ty-blog#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "jest": "^27.5.1",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {}
+}
