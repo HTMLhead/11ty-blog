@@ -3,3 +3,5 @@ node_modules
 
 # build
 _site
+gh-pages
+gh-pages.pub
