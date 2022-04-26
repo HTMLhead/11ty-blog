@@ -1,0 +1,14 @@
+---
+layout: layouts/home.njk
+title: "Homepage"
+---
+
+<h1>{{title}}</h1>
+<p>i am on the home page too</p>
+<a href="/contact">go contact</a>
+
+<img src="/assets/img/lucas-src.png" alt="lucas-img" width="500" />
+<div class="home-card__container">
+  {% Card title="hi", link="/contact", linkText="go to contact" %}
+  {% Card title="hi", link="/contact", linkText="go to contact", raised=true %}
+</div>
