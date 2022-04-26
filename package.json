@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf dist src/_js",
     "start": "npx eleventy --serve",
-    "build": "eleventy",
+    "build": "npx eleventy",
     "build:11ty": "eleventy --quiet",
     "watch:11ty": "eleventy --serve --quiet",
     "test": "jest"
